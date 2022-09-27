@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+html {
+    transition: 0.3s
+}
+
+html.dark {
+    background-color: #02060F
+}
+
+#nprogress .bar {
+    background: #4C62EF !important;
+    height: 4px !important;
+}
+  
+#nprogress .peg {
+    display: none !important
+}
+  
+.spinner .spinner-icon {
+    border-color: #4C62EF !important;
+    border-right: 0 !important
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+}
+
+.divider {
+    border: 0;
+    border-bottom: 1px solid #111111;
+    height: 1px
+}
+
+.wrap {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height:100vh;
+}
+
+.wrapper {
+    height: auto;
+    display: block;
+    padding-bottom: 3rem
+}
+
+.loader {
+    -webkit-animation: spin 0.5s linear infinite; /* Safari */
+    animation: spin 0.5s linear infinite;
+}
+  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
