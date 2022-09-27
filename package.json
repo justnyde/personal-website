@@ -8,6 +8,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "moment": "^2.29.4",
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.7",
     "nprogress": "^0.2.0",
