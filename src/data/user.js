@@ -23,6 +23,10 @@ export default {
     connections: {
         youtube: "Just Nyde",
         instagram: "@just.nyde",
-        twitter: "Just Nyde"
+        twitter: "Just Nyde",
+        discord: {
+            name: "Just Nyde#2535",
+            server: "https://discord.gg/xhZnrsE5Cm"
+        }
     }
 }
