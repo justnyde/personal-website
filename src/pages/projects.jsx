@@ -24,7 +24,7 @@ export default function Project(){
                 <div className="grid grid-cols-1 gap-4 grid-flow-row auto-rows-max px-3 sm:px-0 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2">
                     {projects.map((data) => (
                         <a href={data.link}>
-                            <div data-aos="fade-right" className="block w-full p-4 bg-gray-200 dark:bg-slate-900 hover:bg-gray-400 dark:hover:bg-slate-800 transition rounded-md group">
+                            <div data-aos="fade-right" className="block h-full w-full p-4 bg-gray-200 dark:bg-slate-900 hover:bg-gray-400 dark:hover:bg-slate-800 transition rounded-md group">
                                 <div className="w-full overflow-hidden h-32 rounded-lg border-2 border-solid border-slate-900 dark:border-white relative"><img className="transition w-full h-full rounded-lg group-hover:scale-125" src={data.thumbnail}/></div>
                                 <br/>
                                 <h1 className="text-black dark:text-white text-xl font-sans font-bold">{data.name}</h1>
