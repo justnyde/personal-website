@@ -10,14 +10,13 @@ export default function Project(){
 
     useEffect(() => {
 
-        //if (typeof Projects !== "object") return setProjects([]);
-
         setProjects(Object.keys(Projects).map(s => Projects[s]))
 
     }, [Projects])
 
     return (
         <div className="mt-3 max-w-8xl w-11/12 sm:w-8/12 mx-auto">
+            <title>Projects | Just Nyde</title>
             <h1 className="font-bold font-sans text-slate-900 dark:text-white text-4xl">Projects</h1>
             <br/>
             {(!projects) ? (<>
