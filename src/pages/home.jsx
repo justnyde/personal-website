@@ -80,7 +80,7 @@ export default function Main(){
                 <BsSpotify size={"50px"} color="WHITE"/>
                 <div>
                     <h1 className="font-sans text-lg font-bold text-white">Listening to Spotify</h1>
-                    <h1 className="font-sans text-base font-semibold text-white">{(user.listening_to_spotify == true) ? user.spotify.song : "Loading..."}</h1>
+                    <h1 className="font-sans text-base font-semibold text-white">{(user.listening_to_spotify == true) ? user.spotify.song : ((user.listening_to_spotify == false) ? "I am not listening anything right now." : "Loading...")}</h1>
                 </div>
                 </div>
                 <img src={(user.listening_to_spotify == true) ? user.spotify.album_art_url : ""} className="absolute w-48 h-full right-0 hidden opacity-40 blur-sm sm:block"/>
