@@ -113,62 +113,62 @@ export default function Main(){
             <h1 className="text-2xl text-gray-900 dark:text-white font-bold font-sans">Technologies I Use</h1>
         </div>
         <br/>
-        <div className="flex flex-wrap items-center gap-3" data-aos="fade-up">
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+        <div className="block space-y-4 sm:flex sm:flex-wrap sm:items-center sm:gap-3 sm:space-y-0" data-aos="fade-up">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiReact size="25px" color="#61DBFB"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">React</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiNextdotjs size="25px" color="BLACK"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">Next.js</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiTailwindcss size="25px" color="#36B7F0"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">TailwindCSS</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiHtml5 size="25px" color="#FF4B00"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">HTML</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiCss3 size="25px" color="#264DE4"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">CSS</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiExpress size="25px" color="BLACK"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">Express.js</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiBootstrap size="25px" color="#8411F6"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">Bootstrap</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <SiVercel size="25px" color="BLACK"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">Vercel</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-gray-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <BsGithub size="25px" color="BLACK"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">Github</h1>
                 </div>
             </div>
-            <div className="py-4 px-6 w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-slate-700 dark:hover:border-gray-900 rounded-lg transition">
+            <div className="py-4 px-6 w-full sm:w-48 font-sans text-base font-bold bg-gray-200 hover:bg-gray-300 border-2 border-solid border-gray-400 cursor-pointer hover:border-gray-600 dark:bg-slate-900 dark:border-slate-700 dark:hover:border-gray-900 rounded-lg transition">
                 <div className="flex justify-between items-center w-full h-full">
                     <IoFlower size="25px" color="YELLOW"/>
                     <h1 className="font-sans text-gray-900 dark:text-white text-base">Daisy UI</h1>
