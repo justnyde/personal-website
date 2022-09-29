@@ -54,22 +54,7 @@ export default function Main(){
                 {(user.discord_status) ? (<div className={`absolute transition bottom-2 right-2 p-5 ${{idle: "bg-amber-400", dnd: "bg-rose-600", online: "bg-emerald-600", offline: "bg-gray-600"}[user.discord_status]} rounded-full border-4 border-solid ${{idle: "border-amber-200", dnd: "border-rose-300", online: "border-emerald-300", offline: "border-gray-300"}[user.discord_status]}`}></div>) : (<></>)}
             </div>
             <div>
-                <h1 onClick={(changeTheme) => {
-
-                    // Whenever the user explicitly chooses dark mode
-                    if (localStorage.theme == "light" || !localStorage.theme) {
-                        localStorage.theme = 'dark'
-                    } else {
-                        localStorage.theme = "light"
-                    }
-
-                    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                        document.documentElement.classList.add('dark')
-                    } else {
-                        document.documentElement.classList.remove('dark')
-                    }
-
-                }} className="text-gray-900 dark:text-white font-sans text-4xl font-bold">{(user.discord_user) ? user.discord_user.username : (<Skeleton height={"50px"} width={"25%"}/>)}</h1>
+                <h1 className="text-gray-900 dark:text-white font-sans text-4xl font-bold">{(user.discord_user) ? user.discord_user.username : (<Skeleton height={"50px"} width={"25%"}/>)}</h1>
                 <h1 className="mt-2 text-gray-700 dark:text-gray-400 font-sans text-lg">{(user.discord_user) ? UserData.description : (<Skeleton count={2}/>)}</h1>
             </div>
         </div>
