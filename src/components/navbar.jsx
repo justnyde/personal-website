@@ -7,8 +7,16 @@ export default function Navbar(){
     const [theme, setTheme] = useState(false)
 
     useEffect(() => {
-
-        console.log(theme)
+        
+        if (localStorage.getItem("theme")) {
+            setTheme(true)
+        } else {
+            setTheme(false)
+        }
+        
+    }, [])
+    
+    useEffect(() => {
 
         if (!theme && !localStorage.getItem("theme")) {
             document.documentElement.classList.remove('dark')
