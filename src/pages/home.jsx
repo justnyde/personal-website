@@ -13,7 +13,6 @@ import useSWR from "swr"
 
 export default function Main(){
 
-    const websocket = new WebSocket("wss://api.lanyard.rest/socket")
     const [user, setUser] = useState({})
     const [averageColor, setAverageColor] = useState(null)
     const [repos, setRepos] = useState(undefined)
@@ -28,6 +27,8 @@ export default function Main(){
 
     useEffect(() => {
 
+        const websocket = new WebSocket("wss://api.lanyard.rest/socket")
+        
         websocket.onmessage = data => {
             var message = JSON.parse(data.data)
             if (message.op) { 
