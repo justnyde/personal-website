@@ -16,11 +16,11 @@ export default function ScrollToTop() {
           {(pathname.startsWith("/book/")) ? (<Helmet>
                 <meta property="og:description" content="An amazing photograph!"/>
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:image" content={`https://cdn.nyde.online/${pathname.split("/")[2]}`}>
+                <meta name="twitter:image" content={`https://cdn.nyde.online/${pathname.split("/")[2]}`}/>
                                               <Helmet/>) : (<Helmet>
                 <meta property="og:description" content="Hello! I'm Nyde. I would like to introduce myself to you. You can know me on my website 😊."/>
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:image" content="/image/banner/Nyde_7.png">
+                <meta name="twitter:image" content="/image/banner/Nyde_7.png"/>
                                               <Helmet/>)}
          </>);
 }
